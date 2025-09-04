@@ -1,9 +1,9 @@
 # Predicting-Eligibility-for-Social-Welfare-Schemes-using-Machine-Learning
 
 
-# 🏛️ Predicting Eligibility for NSAP Schemes using IBM AutoAI
+#  Predicting Eligibility for NSAP Schemes using IBM AutoAI
 
-## 📌 Project Overview
+##  Project Overview
 
 The **National Social Assistance Programme (NSAP)** is a flagship welfare scheme by the Government of India that provides pensions to:
 
@@ -14,11 +14,11 @@ The **National Social Assistance Programme (NSAP)** is a flagship welfare scheme
 
 Traditionally, verifying applications and assigning the right scheme is **manual, slow, and error-prone**.
 
-👉 Our solution: A **multi-class machine learning model** built using **IBM AutoAI** that predicts the most appropriate NSAP sub-scheme (`IGNOAPS`, `IGNWPS`, `IGNDPS`) for an applicant/district.
+Our solution: A **multi-class machine learning model** built using **IBM AutoAI** that predicts the most appropriate NSAP sub-scheme (`IGNOAPS`, `IGNWPS`, `IGNDPS`) for an applicant/district.
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 * **Source**: [AI Kosh – District-wise Pension Data under NSAP](https://aikosh.indiaai.gov.in/web/datasets/details/district_wise_pension_data_under_the_national_social_assistance_programme_nsap_1.html)
 * **Records**: \~2,085
@@ -47,7 +47,7 @@ Traditionally, verifying applications and assigning the right scheme is **manual
 
 ---
 
-## ⚡ Workflow
+##  Workflow
 
 1. Upload dataset to **Watson Studio**.
 2. Launch **AutoAI experiment** (Classification).
@@ -59,7 +59,7 @@ Traditionally, verifying applications and assigning the right scheme is **manual
 
 ---
 
-## 📊 Results
+##  Results
 
 * **Best Model**: Random Forest Classifier
 * **Performance**: High accuracy & F1-score across all scheme classes
@@ -99,7 +99,7 @@ Traditionally, verifying applications and assigning the right scheme is **manual
 
 ---
 
-## 🎯 Wow Factor
+##  Wow Factor
 
 * **End-to-End Automation** → From data upload to deployed model in minutes.
 * **Scalable** → Can be integrated into government portals for real-time eligibility checks.
@@ -107,7 +107,7 @@ Traditionally, verifying applications and assigning the right scheme is **manual
 
 ---
 
-## 👥 End Users
+##  End Users
 
 * Government agencies & welfare departments
 * Beneficiaries (citizens applying for pensions)
@@ -115,7 +115,7 @@ Traditionally, verifying applications and assigning the right scheme is **manual
 
 ---
 
-## 🚀 Future Scope
+##  Future Scope
 
 * Extend to **applicant-level data** (age, widowhood, disability %).
 * Add **fairness checks** (avoid bias by gender, caste, or region).
@@ -124,7 +124,7 @@ Traditionally, verifying applications and assigning the right scheme is **manual
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 NSAP-Eligibility-Prediction/
@@ -142,7 +142,7 @@ NSAP-Eligibility-Prediction/
 ```
 
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 * Government of India – NSAP programme
 * AI Kosh for dataset
